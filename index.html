@@ -21,6 +21,7 @@
         $(document).ready(function () {
             $('.nav').hover(function () {
                 $('.backitem').toggleClass('rotated');
+              	$(document).children().not('.nav').css('opacity', '0.4');
             });
         });
     </script>
