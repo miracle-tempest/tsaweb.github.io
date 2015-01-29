@@ -1,74 +1,161 @@
-body {
-    margin: 0;
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+* {
     padding: 0;
-    background-color: #2c3e50;
-    /*    #ecf0f1;*/
+    margin: 0;
 }
-.nav {
-    color: #2c3e50;
-    float: right;
+
+html,
+body {
     height: 100%;
-    width: 5%;
-    background-color: #ecf0f1;
-    transition: width ease .3s;
-    text-align: center;
-    font-size: 30px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    overflox-x: hidden;
 }
-.content h1 {
+
+.top-nav {
+    opacity: .7;
+    background-color: #ecf0f1;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+}
+
+.top-nav span {
+    padding: 10px 25px 10px 25px;
+}
+
+.link-items {
+    color: #333;
+    padding: 25px;
+    display: inline-block;
+}
+
+.body-content {
+    width: 100%;
+    background-image: url(imgs/background.JPG);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    font-size: 50px;
+    height: 90%;
     color: #ecf0f1;
     text-align: center;
-    font-size: 50px;
 }
+
 .outer {
     display: table;
 }
+
 .inner {
     display: table-cell;
     vertical-align: middle;
 }
-.nav:hover {
-    text-align: left;
-    transition: width ease .3s;
-    width: 25%;
-    padding-left: 25px;
+
+.boxes-section {
+    padding: 25px;
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
 }
-.l {
-    float: left;
-    width: 27%;
-    margin-right: 7%;
-    background-color: #2ecc71;
-    height: 100px;
+
+.boxes-section p {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    font-size: 35px;
 }
-.c {
-    float: left;
-    width: 27%;
-    margin-right: 7%;
-    background-color: #2ecc71;
-    height: 100px;
+
+.box {
+    display: inline-block;
+    width: 40%;
+    height: 200px;
+    text-align: center;
+    color: #333;
+    margin: 0 auto;
 }
-.r {
-    float: left;
-    width: 27%;
-    background-color: #2ecc71;
-    height: 100px;
+
+.box p {
+    opacity: 0;
 }
-.rotated {
-    -webkit-transition-duration: 0.3s;
-    -moz-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s;
-    transition-duration: 0.3s;
-    -webkit-transition-property: -webkit-transform;
-    -moz-transition-property: -moz-transform;
-    -o-transition-property: -o-transform;
-    transition-property: transform;
-    -webkit-transform: rotate(180deg);
-    /* Chrome, Safari 3.1+ */
-    -moz-transform: rotate(180deg);
-    /* Firefox 3.5-15 */
-    -ms-transform: rotate(180deg);
-    /* IE 9 */
-    -o-transform: rotate(180deg);
-    /* Opera 10.50-12.00 */
-    transform: rotate(180deg);
-    /* Firefox 16+, IE 10+, Opera 12.10+ */
+
+.box div {
+    padding: 25px;
+    margin: 0 auto;
+}
+
+.box1 {
+    margin-right: 5%;
+}
+
+.box span {
+    color: #333;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box .fa {
+    font-size: 40px;
+}
+
+.quote {
+    width: 100%;
+    background-image: url(imgs/background-quote.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    font-size: 25px;
+    color: #ecf0f1;
+}
+
+.quote span {
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.quote p {
+    font-family: 'Montserrat', sans-serif;
+    color: #ecf0f1;
+    font-size: 35px;
+}
+
+.footer {
+    background-color: #333;
+    height: 10%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: #ecf0f1;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+@media all and (max-width: 768px) {
+    .body-content {
+        background-size: cover;
+    }
+    .boxes-section {
+        margin: 0 auto;
+        text-align: center;
+        width: 90%;
+    }
+    .box {
+        margin: 0 auto;
+        width: 80%;
+        display: block;
+    }
+    .quote {
+        font-size: 20px;
+        padding: 100px 0 100px 0;
+        height: auto;
+    }
+    .link-items span {
+        display: block;
+    }
 }
