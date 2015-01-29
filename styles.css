@@ -21,6 +21,12 @@ body {
     height: 10%;
     width: 100%;
     position: fixed;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    cursor: pointer;
 }
 
 .top-nav span {
@@ -158,12 +164,3 @@ body {
     .link-items span {
         display: block;
     }
-    .link-items {
-     -webkit-touch-callout: none;
-        -webkit-user-select: none;
-        -khtml-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-        cursor: pointer;   
-    }    
-    
