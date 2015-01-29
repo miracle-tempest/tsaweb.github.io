@@ -6,14 +6,36 @@
     <title>Design Brief</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 </head>
 
 <body>
+    <script>
+        $(document).ready(function () {
+            $("#home-link").click(function () {
+                $('html, body').animate({
+                    scrollTop: $(".body-content").offset().top
+                }, 1300);
+            });
+            $("#recycle-link").click(function () {
+                $('html, body').animate({
+                    scrollTop: $(".boxes-section").offset().top
+                }, 1300);
+            });
+            $("#cont-link").click(function () {
+                $('html, body').animate({
+                    scrollTop: $(".quote").offset().top
+                }, 1300);
+            });
+        });
+    </script>
     <div class="top-nav outer">
         <div class="link-items inner">
-            <span>Home</span>
-            <span>Recycle</span>
-            <span>contaminents</span>
+            <span id="home-link">Home</span>
+            <span id="recycle-link">Recycle</span>
+            <span id="cont-link">contaminants</span>
+            <span id="home-link">lorem</span>
+            <span id="home-link">ipsum</span>
         </div>
     </div>
     <div class="body-content outer">
@@ -69,7 +91,7 @@
     </div>
     <div class="quote outer">
         <div class="inner">
-            <p>CONTAMINENTS</p>
+            <p>CONTAMINANTS</p>
             <br>
             <br>
             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet dapibus nibh. Duis ultricies eleifend arcu suscipit convallis. Curabitur ut sagittis arcu. Ut dapibus pellentesque rhoncus. Morbi eu volutpat quam, eu sodales justo. Nulla luctus rutrum est varius blandit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam iaculis nunc urna, et imperdiet tortor interdum non. Quisque leo leo, convallis at sagittis quis, lobortis non justo. Donec rhoncus mauris et lorem suscipit, nec fermentum arcu egestas. Proin ornare justo eget laoreet elementum. In commodo, lacus at lacinia vulputate, elit nisi aliquet lacus, a vulputate augue est sit amet dolor.</span>
