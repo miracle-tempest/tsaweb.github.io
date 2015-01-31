@@ -13,6 +13,11 @@ body {
     overflox-x: hidden;
 }
 
+.all {
+    height: 100%;
+    width: 100%;
+}
+
 .top-nav {
     opacity: .7;
     background-color: #ecf0f1;
@@ -21,7 +26,6 @@ body {
     height: 10%;
     width: 100%;
     position: fixed;
-    
 }
 
 .top-nav span {
@@ -32,7 +36,6 @@ body {
     color: #333;
     padding: 25px;
     display: inline-block;
-    
 }
 
 .body-content {
@@ -136,6 +139,14 @@ body {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 3px;
+}
+
+.full-box {
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    color: #333;
 }
 
 @media all and (max-width: 768px) {
