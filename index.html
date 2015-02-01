@@ -15,6 +15,14 @@
             setTimeout(function () {
                 $('.content').toggleClass('content-move').delay(1000);
             }, 500);
+            $('.fa-angle-right').click(function () {
+                $('.content').toggleClass('content-right');
+
+                $('body').fadeOut();
+                setTimeout(function () {
+                    window.location.href = "home.html";
+                }, 1000);
+            });
         });
     </script>
     <div class="home-content outer">
@@ -35,10 +43,15 @@
                     transition: 1s;
                     left: 30%;
                 }
+                
+                .content-right {
+                    transition: 1s;
+                    left: 100%;
+                }
             </style>
             <div class="content">
                 <span>Ready to experience MVHS TSA Webmaster?</span>
-                <br><a href="home.html"><i class="fa fa-angle-right"></i></a>
+                <br><a><i class="fa fa-angle-right"></i></a>
             </div>
         </div>
     </div>
