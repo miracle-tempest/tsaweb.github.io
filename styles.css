@@ -27,6 +27,10 @@ body {
     width: 100%;
     position: fixed;
 }
+.top-nav a {
+    color: #333;
+    text-decoration: none;
+}
 
 .top-nav span {
     padding: 10px 25px 10px 25px;
@@ -39,6 +43,7 @@ body {
 }
 
 .body-content {
+    padding-top: 10%;
     width: 100%;
     background-image: url(imgs/background.JPG);
     background-attachment: fixed;
@@ -147,6 +152,19 @@ body {
     font-size: 30px;
     text-align: center;
     color: #333;
+}
+.home-content {
+    background-color: #333;
+    color: #ecf0f1;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+.home-content a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 50px;
 }
 
 @media all and (max-width: 768px) {
