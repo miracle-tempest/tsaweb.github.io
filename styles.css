@@ -211,7 +211,7 @@ body {
         padding: 100px 0 100px 0;
         height: auto;
     }
-    .link-items span {
+    .link-items a {
         display: block;
     }
 }
