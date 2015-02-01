@@ -96,9 +96,6 @@ img {
     height: 300px;
     float: right;
 }
-img:hover {
-    border: solid 4px #070707;
-}
 hr {
     width: 100%;
     margin: 40px 0;
