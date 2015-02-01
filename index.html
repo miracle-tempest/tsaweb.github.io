@@ -3,127 +3,43 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Design Brief</title>
+    <title>TSA Webmaster</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 </head>
 
 <body>
     <script>
         $(document).ready(function () {
-            $('.brief-box').css('display', 'none');
-            $('.chapter-box').css('display', 'none');
-            $('.classes-box').css('display', 'none');
-            $("#home-link").click(function () {});
-            $("#brief-link").click(function () {
-                $('.all').css('display', 'none');
-                $('.brief-box').css('display', 'block');
-            });
-            $("#chapter-link").click(function () {
-                $('.all').css('display', 'none');
-                $('.chapter-box').css('display', 'block');
-            });
-            $("#classes-link").click(function () {
-                $('.all').css('display', 'none');
-                $('.classes-box').css('display', 'block');
-            });
-            $(".fa-times-circle").click(function () {
-                $('.brief-box').css('display', 'none');
-                $('.chapter-box').css('display', 'none');
-                $('.classes-box').css('display', 'none');
-                $('.all').css('display', 'block');
-            });
+            setTimeout(function () {
+                $('.content').toggleClass('content-move').delay(1000);
+            }, 500);
         });
     </script>
-    <div class="brief-box full-box">
-        Design Brief
-        <br>
-        <i class="fa fa-times-circle"></i>
-    </div>
-    <div class="chapter-box full-box">
-        Our Chapter
-        <br>
-        <i class="fa fa-times-circle"></i>
-    </div>
-    <div class="classes-box full-box">
-        Classes
-        <br>
-        <i class="fa fa-times-circle"></i>
-        
-        
-    </div>
-    <div class="all">
-        <div class="top-nav outer">
-            <div class="link-items inner">
-                <span class="nohighlight menuitem" id="home-link"><a href="home.html">Home</a></span>
-                <span class="nohighlight menuitem" id="brief-link">Design Brief</span>
-                <span class="nohighlight menuitem" id="chapter-link">Our Chapter</span>
-                <span class="nohighlight menuitem" id="classes-link">Classes</span>
+    <div class="home-content outer">
+        <div class="inner">
+            <style>
+                .home-content {
+                    position: relative;
+                    overflow: hidden;
+                }
+                
+                .content {
+                    width: 40%;
+                    left: -40%;
+                    position: absolute;
+                }
+                
+                .content-move {
+                    transition: 1s;
+                    left: 30%;
+                }
+            </style>
+            <div class="content">
+                <span>Ready to experience MVHS TSA Webmaster?</span>
+                <br><a href="home.html"><i class="fa fa-angle-right"></i></a>
             </div>
-        </div>
-        <div class="body-content outer">
-            <div class="inner">Disposing of Electronics in Highlands Ranch</div>
-        </div>
-        <div class="boxes-section">
-            <p>WHAT TO RECYCLE?</p>
-            <br>
-            <div class="box box1 outer">
-                <div class="inner">
-                    <i class="fa fa-laptop"></i>
-                    <br>
-                    <br>
-                    <span>Computers</span>
-                    <br>
-                    <br>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-            </div>
-            <div class="box outer">
-                <div class="inner">
-                    <i class="fa fa-plus-circle"></i>
-                    <br>
-                    <br>
-                    <span>Batteries</span>
-                    <br>
-                    <br>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-            </div>
-            <div class="box box1 outer">
-                <div class="inner">
-                    <i class="fa fa-mobile"></i>
-                    <br>
-                    <br>
-                    <span>Phones</span>
-                    <br>
-                    <br>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-            </div>
-            <div class="box outer">
-                <div class="inner">
-                    <i class="fa fa-desktop"></i>
-                    <br>
-                    <br>
-                    <span>Televisions</span>
-                    <br>
-                    <br>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                </div>
-            </div>
-        </div>
-        <div class="quote outer">
-            <div class="inner">
-                <p>Why recycle electronics?</p>
-                <br>
-                <br>
-                <span>Although sometimes it may be easiest to throw away your old electronics, the dead batteries, and the out-of-date phones doing this can create many problems for health, the environment, and more. Old batteries can contain mercury which is harmful to humans and the environment. Newer batteries although safer can contain nickel-cadmium. As the batteries break down the cadmium can enter the environment and contaminate water. This can lead to blood and reproductive issues in humans. It also damages the plants and animals in similar ways. When you are ready to get rid of your old phone don’t just throw it away because that phone is toxic to the environment. The batteries contain heavy metals and the circuit boards contain lead, mercury, arsenic, among other things. All of these things can containment water and hurt animals, plants, and even humans. When burned these metals can release pollutants into the air. Computers and other old electronics including computers can be harmful to the soil and groundwater because they can release heavy metals and other pollutants if not disposed of properly. The best way to prevent any of these materials from affecting the local area is to dispose of them correctly.
-</span>
-            </div>
-        </div>
-        <div class="footer outer">
-            <div class="inner">Mountain Vista TSA Webmaster 2015</div>
         </div>
     </div>
 </body>
