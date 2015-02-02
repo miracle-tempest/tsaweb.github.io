@@ -74,19 +74,19 @@ h4 {
 .more {
     text-align: center;
 }
-a:link {
+.more a:link {
     color: #8e44ad;
     text-decoration: none;
 }
-a:hover {
+.more a:hover {
     color: #8e44ad;
     text-decoration: underline;
 }
-a:visited {
+.more a:visited {
     color: #8e44ad;
     text-decoration: none;
 }
-a:active {
+.more a:active {
     color: #8e44ad;
     text-decoration: none;
 }
@@ -207,4 +207,16 @@ img:hover {
 }
 h4 {
     margin-bottom: 8px;
+}
+a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+a:visited {
+ color: #2980b9;;
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+    color: #2980b9;
 }
