@@ -280,6 +280,18 @@ body {
     left: 100%;
 }
 
+.main-content {
+    margin-top: 15%;
+}
+
+hr {
+    margin: 0 auto;
+    width: 20%;
+    border: solid;
+    border-color: #7f8c8d;
+    border-width: thin;
+}
+
 @media all and (max-width: 768px) {
     .body-content {
         padding-top: 210px;
@@ -314,5 +326,8 @@ body {
     .content-page {
         line-height: 1.5em;
         width: 90%;
+    }
+    .main-content {
+        padding-top: 210px;
     }
 }
