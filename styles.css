@@ -415,6 +415,7 @@ img:hover {
     .content-page {
         line-height: 1.5em;
         width: 90%;
+        height: 100%;
     }
     .main-content .paragraph {
         line-height: 1.5em;

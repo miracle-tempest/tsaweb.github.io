@@ -11,6 +11,44 @@
 </head>
 
 <body>
+    <style>
+        .all {
+            display: none;
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            $('.all').fadeIn(1000);
+            $('#computer-link').click(function () {
+                $('body').fadeOut('slow', function () {
+                    setTimeout(function () {
+                        window.location.href = "throw/computers.html";
+                    }, 1000);
+                });
+            });
+            $('#battery-link').click(function () {
+                $('body').fadeOut('slow', function () {
+                    setTimeout(function () {
+                        window.location.href = "throw/batteries.html";
+                    }, 1000);
+                });
+            });
+            $('#mobile-link').click(function () {
+                $('body').fadeOut('slow', function () {
+                    setTimeout(function () {
+                        window.location.href = "throw/phones.html";
+                    }, 1000);
+                });
+            });
+            $('#tv-link').click(function () {
+                $('body').fadeOut('slow', function () {
+                    setTimeout(function () {
+                        window.location.href = "throw/tv.html";
+                    }, 1000);
+                });
+            });
+        });
+    </script>
     <div class="all">
         <div class="top-nav outer">
             <div class="link-items inner">
@@ -26,7 +64,7 @@
         <div class="boxes-section">
             <p>WHAT TO RECYCLE?</p>
             <br>
-            <a href="throw/computers.html">
+            <a href="#" id="computer-link">
                 <div class="box box1">
                     <i class="fa fa-laptop"></i>
                     <br>
@@ -37,7 +75,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
             </a>
-            <a href="throw/batteries.html">
+            <a href="#" id="battery-link">
                 <div class="box">
                     <i class="fa fa-plus-circle"></i>
                     <br>
@@ -48,7 +86,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
             </a>
-            <a href="throw/phones.html">
+            <a href="#" id="mobile-link">
                 <div class="box box1">
                     <i class="fa fa-mobile"></i>
                     <br>
@@ -59,7 +97,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
             </a>
-            <a href="throw/tv.html">
+            <a href="#" id="tv-link">
                 <div class="box">
                     <i class="fa fa-desktop"></i>
                     <br>
