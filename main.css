@@ -69,6 +69,7 @@ h2 {
 }
 h4 {
     color: #2980b9;
+    margin-top: 70px;
 }
 .more {
     text-align: center;
@@ -177,4 +178,33 @@ a.navbutton:active {
         color: #ecf0f1;
     transform: scale(0.9);
     -webkit-transform: scale(0.9);
+}
+img {
+    -webkit-transition: all 1s ease;
+    /* Safari and Chrome */
+    -moz-transition: all 1s ease;
+    /* Firefox */
+    -ms-transition: all 1s ease;
+    /* IE 9 */
+    -o-transition: all 1s ease;
+    /* Opera */
+    transition: all 1s ease;
+    
+    transition-duration: 0.2s;
+}
+img:hover {
+    -webkit-transform: scale(1.05);
+    /* Safari and Chrome */
+    -moz-transform: scale(1.05);
+    /* Firefox */
+    -ms-transform: scale(1.05);
+    /* IE 9 */
+    -o-transform: scale(1.05);
+    /* Opera */
+    transform: scale(1.05);
+    opacity: 0.9;
+    transition-delay: 0.8s;
+}
+h4 {
+    margin-bottom: 8px;
 }
