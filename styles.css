@@ -191,43 +191,6 @@ body {
     font-size: 50px;
 }
 
-@media all and (max-width: 768px) {
-    .body-content {
-        padding-top: 210px;
-        background-size: cover;
-    }
-    .boxes-section {
-        margin: 0 auto;
-        text-align: center;
-        width: 90%;
-    }
-    .box {
-        margin: 0 auto;
-        width: 80%;
-        display: block;
-    }
-    .quote {
-        font-size: 20px;
-        padding: 100px 0 100px 0;
-        height: auto;
-    }
-    .link-items a {
-        padding: 10px 0 10px 0;
-        width: 50%;
-        text-align: center;
-        margin: 0 auto;
-        display: block;
-    }
-    .boxes-section a {
-        color: #333;
-        text-decoration: none;
-    }
-    .content-page {
-        line-height: 1.5em;
-        width: 90%;
-    }
-}
-
 .box a {
     color: #333;
     text-decoration: none;
@@ -294,4 +257,41 @@ body {
     color: #333;
     text-decoration: none;
     font-size: 30px;
+}
+
+@media all and (max-width: 768px) {
+    .body-content {
+        padding-top: 210px;
+        background-size: cover;
+    }
+    .boxes-section {
+        margin: 0 auto;
+        text-align: center;
+        width: 90%;
+    }
+    .box {
+        margin: 0 auto;
+        width: 80%;
+        display: block;
+    }
+    .quote {
+        font-size: 20px;
+        padding: 100px 0 100px 0;
+        height: auto;
+    }
+    .link-items a {
+        padding: 10px 0 10px 0;
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+    .boxes-section a {
+        color: #333;
+        text-decoration: none;
+    }
+    .content-page {
+        line-height: 1.5em;
+        width: 90%;
+    }
 }
