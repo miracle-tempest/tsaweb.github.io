@@ -310,6 +310,9 @@ hr {
 .fa ::selection {
     background-color: transparent;
 }
+.fa:active ::selection {
+    background-color: transparent;
+}
 .image img {
     width: 25%;
 }
