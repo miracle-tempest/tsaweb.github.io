@@ -134,21 +134,16 @@ body {
 
 .quote {
     width: 100%;
-    background-image: url(imgs/background-quote.jpg);
-    background-attachment: fixed;
-    background-position: top;
-    background-size: cover;
+    background-color: #7f8c8d;
     padding: 100px 0 100px 0;
     text-align: center;
-    font-size: 25px;
     color: #ecf0f1;
 }
 
 .quote span {
+    line-height: 2em;
     text-align: center;
-    font-size: 20px;
     margin: 0 auto;
-    width: 500px;
 }
 
 .quote p {
@@ -306,13 +301,54 @@ hr {
 .image img {
     width: 25%;
 }
+
 .main-content a {
     text-decoration: none;
     color: #3498db;
 }
+
 .main-content h4 {
     color: #3498db;
     font-size: 20px;
+}
+
+.quote .inner {
+    padding: 0 20%;
+}
+
+img {
+    -webkit-transition: all 1s ease;
+    /* Safari and Chrome */
+    
+    -moz-transition: all 1s ease;
+    /* Firefox */
+    
+    -ms-transition: all 1s ease;
+    /* IE 9 */
+    
+    -o-transition: all 1s ease;
+    /* Opera */
+    
+    transition: all 1s ease;
+    transition-duration: 0.2s;
+}
+
+img:hover {
+    -webkit-transform: scale(1.05);
+    /* Safari and Chrome */
+    
+    -moz-transform: scale(1.05);
+    /* Firefox */
+    
+    -ms-transform: scale(1.05);
+    /* IE 9 */
+    
+    -o-transform: scale(1.05);
+    /* Opera */
+    
+    transform: scale(1.05);
+    opacity: 0.9;
+    transition-delay: 0.8s;
 }
 
 @media all and (max-width: 768px) {
@@ -334,6 +370,10 @@ hr {
         font-size: 20px;
         padding: 100px 0 100px 0;
         height: auto;
+    }
+    .quote .inner {
+        padding: 0 5%;
+        font-size: 16px;
     }
     .link-items a {
         padding: 10px 0 10px 0;
