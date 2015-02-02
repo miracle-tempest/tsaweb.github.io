@@ -72,7 +72,7 @@ body {
     background-image: url(imgs/background.JPG);
     background-attachment: fixed;
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
     font-size: 50px;
     height: 100%;
     color: #ecf0f1;
