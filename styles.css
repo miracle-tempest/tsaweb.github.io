@@ -259,6 +259,27 @@ body {
     font-size: 30px;
 }
 
+.home-content {
+    position: relative;
+    overflow: hidden;
+}
+
+.content {
+    width: 40%;
+    left: -40%;
+    position: absolute;
+}
+
+.content-move {
+    transition: 1s;
+    left: 30%;
+}
+
+.content-right {
+    transition: 1s;
+    left: 100%;
+}
+
 @media all and (max-width: 768px) {
     .body-content {
         padding-top: 210px;
