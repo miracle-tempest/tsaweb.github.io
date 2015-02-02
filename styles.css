@@ -281,7 +281,14 @@ body {
 }
 
 .main-content {
-    margin-top: 15%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.main-content .paragraph {
+    width: 60%;
+    margin: 0 auto;
+    line-height: 2em;
 }
 
 hr {
@@ -290,6 +297,22 @@ hr {
     border: solid;
     border-color: #7f8c8d;
     border-width: thin;
+}
+
+.title {
+    font-size: 25px;
+}
+
+.image img {
+    width: 25%;
+}
+.main-content a {
+    text-decoration: none;
+    color: #3498db;
+}
+.main-content h4 {
+    color: #3498db;
+    font-size: 20px;
 }
 
 @media all and (max-width: 768px) {
@@ -327,7 +350,14 @@ hr {
         line-height: 1.5em;
         width: 90%;
     }
+    .main-content .paragraph {
+        line-height: 1.5em;
+        width: 90%;
+    }
     .main-content {
         padding-top: 210px;
+    }
+    .image img {
+        width: 40%;
     }
 }
