@@ -222,6 +222,10 @@ body {
         color: #333;
         text-decoration: none;
     }
+    .content-page {
+        line-height: 1.5em;
+        width: 90%;
+    }
 }
 
 .box a {
