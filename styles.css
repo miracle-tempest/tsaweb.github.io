@@ -307,6 +307,9 @@ hr {
     -ms-user-select: none;
     user-select: none;
 }
+.fa ::selection {
+    background-color: transparent;
+}
 .image img {
     width: 25%;
 }
