@@ -11,7 +11,6 @@ body {
     width: 100%;
     font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
-    background-color: #ecf0f1;
 }
 
 .all {
@@ -20,7 +19,6 @@ body {
 }
 
 .top-nav {
-    z-index: 1;
     opacity: .7;
     background-color: white;
     font-family: 'Montserrat', sans-serif;
@@ -240,9 +238,9 @@ body {
 .content-page {
     color: #333;
     line-height: 2em;
-    margin: 50px auto;
+    margin: 0 auto;
     width: 60%;
-    height: 60%;
+    height: 100%;
     text-align: center;
 }
 
@@ -347,7 +345,6 @@ img {
     
     transition: all 1s ease;
     transition-duration: 0.2s;
-    z-index: 0;
 }
 
 img:hover {
