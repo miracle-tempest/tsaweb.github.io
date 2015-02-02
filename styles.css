@@ -192,6 +192,7 @@ body {
 
 @media all and (max-width: 768px) {
     .body-content {
+        padding-top: 210px;
         background-size: cover;
     }
     .boxes-section {
@@ -210,6 +211,10 @@ body {
         height: auto;
     }
     .link-items a {
+        padding: 10px 0 10px 0;
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
         display: block;
     }
 }
