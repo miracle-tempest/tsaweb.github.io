@@ -1,10 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
-* {
+ * {
     padding: 0;
     margin: 0;
 }
-
 html,
 body {
     height: 100%;
@@ -13,12 +12,10 @@ body {
     overflow-x: hidden;
     background-color: #ecf0f1;
 }
-
 .all {
     height: 100%;
     width: 100%;
 }
-
 .top-nav {
     z-index: 1;
     opacity: .7;
@@ -30,13 +27,10 @@ body {
     -webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3s;
     /* Firefox */
-    
     -ms-transition-duration: 0.3s;
     /* IE 9 */
-    
     -o-transition-duration: 0.3s;
     /* Opera */
-    
     transition-duration: 0.3s;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -46,26 +40,21 @@ body {
     user-select: none;
     cursor: default;
 }
-
 .top-nav:hover {
     opacity: .95;
 }
-
 .top-nav a {
     color: #333;
     text-decoration: none;
 }
-
 .top-nav span {
     padding: 10px 25px 10px 25px;
 }
-
 .link-items {
     color: #333;
     padding: 25px;
     display: inline-block;
 }
-
 .body-content {
     padding-top: 10%;
     width: 100%;
@@ -78,29 +67,24 @@ body {
     color: #ecf0f1;
     text-align: center;
 }
-
 .outer {
     display: table;
 }
-
 .inner {
     display: table-cell;
     vertical-align: middle;
 }
-
 .boxes-section {
     padding: 25px;
     width: 60%;
     text-align: center;
     margin: 0 auto;
 }
-
 .boxes-section p {
     font-family: 'Montserrat', sans-serif;
     color: #333;
     font-size: 35px;
 }
-
 .box {
     display: inline-block;
     width: 40%;
@@ -109,31 +93,26 @@ body {
     margin: 0 auto;
     padding: auto;
 }
-
 .box p {
     opacity: 0;
 }
-
 .box div {
     padding: 25px;
     margin: 0 auto;
 }
-
 .box1 {
     margin-right: 5%;
+    height: 50px;
 }
-
 .box span {
     color: #333;
     font-size: 20px;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
 }
-
 .box .fa {
     font-size: 40px;
 }
-
 .quote {
     width: 100%;
     background-color: #7f8c8d;
@@ -141,19 +120,16 @@ body {
     text-align: center;
     color: #ecf0f1;
 }
-
 .quote span {
     line-height: 2em;
     text-align: center;
     margin: 0 auto;
 }
-
 .quote p {
     font-family: 'Montserrat', sans-serif;
     color: #ecf0f1;
     font-size: 35px;
 }
-
 .footer {
     background-color: #333;
     width: 100%;
@@ -164,7 +140,6 @@ body {
     letter-spacing: 3px;
     padding: 25px 0 25px 0;
 }
-
 .full-box {
     height: 100%;
     width: 100%;
@@ -172,7 +147,6 @@ body {
     text-align: center;
     color: #333;
 }
-
 .home-content {
     background-color: #333;
     color: #ecf0f1;
@@ -181,18 +155,15 @@ body {
     text-align: center;
     font-size: 25px;
 }
-
 .home-content a {
     color: #ecf0f1;
     text-decoration: none;
     font-size: 50px;
 }
-
 .box a {
     color: #333;
     text-decoration: none;
 }
-
 .menuitem {
     cursor: pointer;
     font-size: 17px;
@@ -212,7 +183,6 @@ body {
     position: relative;
     overflow: hidden;
 }
-
 .menuitem:before {
     content: "";
     position: absolute;
@@ -229,14 +199,12 @@ body {
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
 }
-
 .menuitem:hover:before,
 .menuitem:focus:before,
 .menuitem:active:before {
     left: 0;
     right: 0;
 }
-
 .content-page {
     color: #333;
     line-height: 2em;
@@ -245,49 +213,40 @@ body {
     height: 60%;
     text-align: center;
 }
-
 .content-page span {
     font-size: 30px;
 }
-
 .content-page .fa {
     color: #333;
     text-decoration: none;
     font-size: 30px;
 }
-
 .home-content {
     position: relative;
     overflow: hidden;
 }
-
 .content {
     width: 40%;
     left: -40%;
     position: absolute;
 }
-
 .content-move {
     transition: 1s;
     left: 30%;
 }
-
 .content-right {
     transition: 1s;
     left: 100%;
 }
-
 .main-content {
     text-align: center;
     padding-top: 100px;
 }
-
 .main-content .paragraph {
     width: 60%;
     margin: 0 auto;
     line-height: 2em;
 }
-
 hr {
     margin: 0 auto;
     width: 20%;
@@ -295,7 +254,6 @@ hr {
     border-color: #7f8c8d;
     border-width: thin;
 }
-
 .title {
     font-size: 25px;
 }
@@ -308,20 +266,20 @@ hr {
     -ms-user-select: none;
     user-select: none;
 }
+.button {
+    cursor: pointer;
+}
 .image img {
     width: 25%;
 }
-
 .main-content a {
     text-decoration: none;
     color: #3498db;
 }
-
 .main-content h4 {
     color: #3498db;
     font-size: 20px;
 }
-
 .quote .inner {
     padding: 0 20%;
 }
@@ -330,7 +288,7 @@ hr {
     -webkit-transition-duration: 0.1s;
 }
 .box:active {
-opacity: 0.7;
+    opacity: 0.7;
 }
 .fa-times-circle {
     transition-duration: 0.3s;
@@ -338,39 +296,32 @@ opacity: 0.7;
 }
 .fa-times-circle:hover {
     color: #e74c3c;
-    
+}
+li {
+    list-style: none;
 }
 img {
     -webkit-transition: all 1s ease;
     /* Safari and Chrome */
-    
     -moz-transition: all 1s ease;
     /* Firefox */
-    
     -ms-transition: all 1s ease;
     /* IE 9 */
-    
     -o-transition: all 1s ease;
     /* Opera */
-    
     transition: all 1s ease;
     transition-duration: 0.2s;
     z-index: 0;
 }
-
 img:hover {
     -webkit-transform: scale(1.05);
     /* Safari and Chrome */
-    
     -moz-transform: scale(1.05);
     /* Firefox */
-    
     -ms-transform: scale(1.05);
     /* IE 9 */
-    
     -o-transform: scale(1.05);
     /* Opera */
-    
     transform: scale(1.05);
     opacity: 0.9;
     transition-delay: 0.8s;
@@ -382,11 +333,29 @@ img:hover {
     transition-duration: 0.1s;
 }
 .button:active:before {
-    transform: scale(1);
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
     -ms-transform: scale(1);
     -o-transform: scale(1);
+    transform: scale(1);
+}
+a.easteregg {
+    color: black;
+    padding: 0;
+    -webkit-transition-duration: 3s;
+    -moz-transition-duration: 3s;
+    -ms-transition-duration: 3s;
+    -o-transition-duration: 3s;
+    transition-duration: 3s;
+}
+a.easteregg:hover {
+    transition-delay: 3s;
+    color: red;
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -ms-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    transform: rotateY(360deg);
 }
 @media all and (max-width: 768px) {
     .body-content {
